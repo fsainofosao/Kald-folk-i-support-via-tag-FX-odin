@@ -15,7 +15,7 @@ client.on ("message", (message) => {
         message.delete();
         mentionMessage = message.content.slice (0);
         mention.sendMessage (  mention + " " + message.author.username +  ` text`);
-        client.channels.get(`channel id`).send( message.author.username + " text " + mention +  ` text`)
+        client.channels.get(`chfannel id`).send( message.author.username + " text " + mention +  ` text`)
         client.channels.get(`channel id`).send( mention + " " + message.author.username +  ` text`)
     }
     });
